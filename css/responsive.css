@@ -1,0 +1,1093 @@
+.navbar-header{
+    position: relative;
+}
+#mobile-menu-btn {
+    font-size: 30px;
+    color: #f55767;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    right: 0px;
+    top: 4px;
+    display: none;
+}
+
+#mobile-menu{
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: rgba(255,255,255,.9);
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    overflow: hidden;
+}
+
+
+#mobile-nav-close-btn {
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    color: #212226;
+    font-weight: 400;
+    cursor: pointer;
+    position: absolute;
+    top: -9px;
+    right: 13px;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+
+#mobile-menu .mobile-menu-content ul{
+    text-align: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.mobile-menu-content ul li {
+    margin-bottom: 8px;
+}
+
+.mobile-menu-content a {
+    font-family:'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #212226;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline;
+    -webkit-transition: .3s;
+    transition: .3s;
+    
+}
+
+#mobile-menu a:hover,
+#mobile-nav-close-btn:hover{
+   color: #f55767;
+    background: none;
+    
+}
+
+
+
+
+.white-nav-top .mobile-menu-content ul.nav>li.active>a {
+    color: #f55767;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1200px) and (max-width:1250px) {
+    .collapse .nav {
+        padding-right: 100px;
+    }
+}
+
+@media (min-width:1250px) and (max-width:1300px) {
+    .collapse .nav {
+        padding-right: 80px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width:992px) and (max-width:1199px) {
+
+
+    .navbar-brand {
+        padding: 13px 0;
+    }
+
+    #home h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    #home p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .ul-icon h4 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .ul-right-img {
+        padding-top: 30px;
+    }
+
+    #download h2 {
+        font-size: 40px;
+        color: #242f51;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+
+    #people .right-info h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    #people .right-info p {
+        font-size: 14px;
+        line-height: 24px;
+        color: #616368;
+        margin-bottom: 8px;
+    }
+
+    #people .right-info h6 {
+        font-size: 12px;
+        line-height: 20px;
+        color: #616368;
+        margin-bottom: 10px;
+    }
+
+    #people .left-img img {
+        padding: 80px 0;
+    }
+
+
+
+    #download p {
+        font-size: 11px;
+        line-height: 20px;
+        color: #616368;
+        margin-bottom: 30px;
+    }
+
+    .img-apple {
+        margin: 0;
+        padding: 0;
+        margin-left: -80px;
+
+    }
+
+    #footer {
+        background-color: #09142e;
+        position: relative;
+        top: -30px;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1030px) {
+    .collapse .nav {
+        padding-right: 120px;
+    }
+
+    .collapse ul li {
+        padding-right: 5px;
+    }
+}
+
+@media (min-width:1031px) and (max-width:1060px) {
+    .collapse .nav {
+        padding-right: 100px;
+    }
+
+    .collapse ul li {
+        padding-right: 5px;
+    }
+}
+
+@media (min-width:1061px) and (max-width:1120px) {
+    .collapse .nav {
+        padding-right: 40px;
+    }
+
+    .collapse ul li {
+        padding-right: 5px;
+    }
+}
+
+@media (min-width:1121px) and (max-width:1199px) {
+    .collapse .nav {
+        padding-right: 10px;
+    }
+
+    .collapse ul li {
+        padding-right: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .collapse ul li {
+        padding-right: 0px;
+    }
+
+    .items-nav {
+        padding: 0;
+    }
+
+    .btn-general {
+
+        font-family: 'Poppins', sans-serif;
+        border-radius: 28px;
+        font-weight: 700;
+        font-size: 13px;
+        text-transform: uppercase;
+        padding: 10px 40px 10px 40px;
+        -webkit-transition: all .5s;
+        transition: all .5s;
+
+    }
+
+    #home h1 {
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 54px;
+        margin-bottom: 15px;
+        color: #242f51;
+    }
+
+    .home-info {
+        text-align: center;
+
+    }
+
+    .home-img {
+        width: 600px;
+        height: 456px;
+        margin: 0 auto;
+    }
+
+    .home-bottom {
+        justify-content: center;
+    }
+
+    #home h3 {
+        margin-top: 22px;
+    }
+
+    .f-img {
+        margin: 0 auto;
+        width: 508px;
+    }
+
+    .right-side-feature {
+        text-align: center;
+    }
+
+    .feature-info .right-side-feature .icon img {
+
+        margin: 0 auto;
+    }
+
+    .feature-info h3,
+    .feature-info p {
+        text-align: center;
+    }
+
+
+    #jackpot .top-jackpot h1 {
+        font-size: 36px;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        line-height: 46px;
+        margin-bottom: 15px;
+        color: #242f51;
+        text-align: center;
+    }
+
+    .bottom-jackpot-main {
+        text-align: center;
+    }
+
+    .bottom-jackpot img {
+        margin: 0 auto;
+    }
+
+    .bottom-jackpot-main .bottom-jackpot p {
+        margin-bottom: 35px;
+    }
+
+    .bottom-2-img img {
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .jackpot-bottom-2-info {
+        text-align: center;
+    }
+
+    .ul-info {
+        text-align: center;
+    }
+
+    .ul-right-img img {
+        margin: 0 auto;
+    }
+
+    .pricing-table {
+        margin-bottom: 30px;
+    }
+
+    .pricing-table .price h2 {
+        font-size: 28px;
+        margin: 0 0 0 16px;
+    }
+
+    .pricing-table .price p {
+        line-height: 12px;
+        font-size: 10px;
+        font-weight: 200;
+        margin: 0;
+        padding-left: 3px;
+        color: #616368;
+    }
+
+    #people .left-img img {
+        margin: 0 auto;
+    }
+
+    #people .right-info {
+        text-align: center;
+    }
+
+    #people {
+        overflow: visible;
+    }
+
+    #people .right-info h6 {
+        font-size: 16px;
+        line-height: 24px;
+        color: #616368;
+        margin-bottom: 20px;
+        padding: 0 40px;
+    }
+
+    #people .owl-nav {
+        display: block;
+        top: 100px;
+        position: absolute;
+        left: 100px;
+    }
+
+    #people .right-info h4 {
+        margin-top: 35px;
+        font-size: 18px;
+        font-weight: 600;
+        color: #242f51;
+        margin-bottom: 0;
+        word-spacing: 1px;
+
+    }
+
+    .accordion--button {
+        font-size: 16px;
+    }
+
+    .accordion--button-1 {
+        font-size: 16px;
+    }
+
+    #download h2,
+    #download p {
+        text-align: center;
+    }
+
+    .download-img {
+        padding-left: 190px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .img-apple {
+        margin-right: 50px;
+    }
+
+    .download-img-right img {
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-right: 50px;
+    }
+
+    #footer {
+        background-color: #09142e;
+        position: relative;
+        top: -48px;
+    }
+
+    .que-heading h1 {
+        margin-top: 90px;
+    }
+
+    .review-img img {
+        margin-left: 60px;
+    }
+
+
+
+    .collapse ul li a {
+        font-family: 'Poppins', sans-serif;
+        color: #242f51;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .navbar-brand {
+        padding-left: 30px
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px) {
+    #home .content-box-lg{
+    padding: 60px 0 1px 0;
+}
+
+    .items-nav,
+    .white-nav-top {
+        padding: 0;
+    }
+
+    .navbar-brand img{
+        width: 100px;
+    }
+    .navbar{
+        padding: 5px 0;
+    }
+    #mobile-menu-btn {
+        display: block;
+    }
+    .home-info {
+        text-align: center;
+    }
+
+    #home h1 {
+        font-size: 34px;
+        line-height: 48px;
+    }
+
+    #home p {
+        font-size: 13px;
+        margin-bottom: 30px;
+        color: #616368;
+        line-height: 22px;
+    }
+
+
+    .btn-general {
+
+        font-family: 'Poppins', sans-serif;
+        border-radius: 28px;
+        font-weight: 700;
+        font-size: 13px;
+        text-transform: uppercase;
+        padding: 11px 30px;
+        -webkit-transition: all .5s;
+        transition: all .5s;
+
+    }
+
+    .btn-home-1 {
+        background-color: #f4f4f4;
+        padding: 4px 20px;
+        font-size: 10px;
+        color: black;
+    }
+
+
+    .home-bottom {
+        justify-content: center;
+    }
+
+    #home h3 {
+        margin-top: 22px;
+    }
+
+    .home-img img {
+        margin: 0 auto;
+    }
+
+
+    .f-img img {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+
+    .feature-info h3 {
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+        margin-bottom: 15px;
+
+    }
+
+    .feature-info p {
+        font-size: 13px;
+        line-height: 22px;
+        margin-bottom: 10px;
+        text-align: center;
+       padding: 0 10px;
+    }
+
+    .feature-info .right-side-feature h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .feature-info .right-side-feature p {
+        font-size: 14px;
+        word-spacing: 1px;
+        line-height: 18px;
+        color: #616368;
+
+    }
+
+    .right-side-feature h4,
+    .right-side-feature p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+
+    .feature-info .right-side-feature .icon img {
+        margin: 0 auto;
+        width: 80px;
+        padding-right: 0;
+    }
+
+
+
+    #jackpot .top-jackpot h1 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .bottom-jackpot-main .bottom-jackpot img {
+        margin: 0 auto;
+    }
+
+    .bottom-jackpot-main .bottom-jackpot h4 {
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+
+    .bottom-jackpot-main .bottom-jackpot p {
+        font-size: 14px;
+        word-spacing: 1px;
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 35px;
+
+
+    }
+
+    .bottom-jackpot-main {
+        margin-top: 30px;
+    }
+
+    .bottom-2-img img {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .jackpot-bottom-2-info .bottom-2-right h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 34px;
+        text-align: center;
+    }
+
+
+    .jackpot-bottom-2-info .bottom-2-right p {
+        font-size: 13px;
+        word-spacing: 1px;
+        line-height: 23px;
+        text-align: center;
+      padding: 0 10px;
+    }
+
+    .jackpot-bottom-2-info {
+        text-align: center;
+    }
+
+    #choose h1 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #choose p {
+        font-size: 13px;
+        word-spacing: 1px;
+        line-height: 23px;
+        text-align: center;
+        padding: 0 10px;
+        margin-bottom: 35px;
+    }
+
+    .choose-icon-info h2 {
+        font-size: 18px;
+        color: #242f51;
+        font-weight: 700;
+    }
+
+    .choose-icon-info h4 {
+        font-size: 14px;
+        line-height: 20px;
+        color: #616368;
+        margin-bottom: 55px;
+    }
+
+    .ul-heading h3 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .ul-heading p {
+        font-size: 13px;
+        line-height: 23px;
+        text-align: center;
+        padding: 0 10px;
+    }
+    
+    .ul-icon h4 {
+     font-size: 14px;
+        line-height: 20px;
+        color: #616368;
+    margin-bottom: 50px;
+}
+
+    .ul-icon {
+        text-align: center;
+    }
+
+
+    .ul-right-img img {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+
+    .pr-heading h1 {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: center;
+    }
+
+
+    .pr-heading p {
+        font-size: 13px;
+        line-height: 23px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+
+
+
+
+    .pricing-table {
+        margin-bottom: 25px;
+    }
+
+
+    #people .left-img img {
+        margin: 0 auto;
+    }
+
+    #people .right-info {
+        text-align: center;
+    }
+
+    #people {
+        overflow: visible;
+    }
+
+    #people .right-info h6 {
+        font-size: 12px;
+        line-height: 20px;
+        color: #616368;
+        margin-bottom: 20px;
+
+    }
+
+    #people .owl-nav {
+        display: block;
+        top: 100px;
+        position: absolute;
+        left: 100px;
+    }
+
+    #people .review-img img {
+        width: 80px;
+    }
+
+    #people .right-info h4 {
+        margin-top: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #242f51;
+        margin-bottom: 0;
+        word-spacing: 1px;
+
+    }
+
+    #people .right-info h1 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    #people .right-info p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .que-heading h1 {
+        font-size: 30px;
+        line-height: 42px;
+        color: #242f51;
+        font-weight: 700;
+        margin-bottom: 25px;
+        margin-top: 120px;
+    }
+
+    .que-heading p {
+        font-size: 13px;
+        line-height: 23px;
+        color: #616368;
+        word-spacing: 1px;
+        margin-bottom: 50px;
+        word-spacing: 1px;
+        padding: 0 10px;
+    }
+
+
+    .accordion--button {
+        font-size: 14px;
+        width: 100%;
+         padding: 8px 10px 8px 15px;
+    }
+
+    .accordion--button-1 {
+        font-size: 14px;
+        width: 100%;
+         padding: 8px 10px 8px 15px;
+    }
+
+
+    .accordian--content {
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .accordion p {
+        margin: 0;
+      
+        padding-top: 15px;
+        padding-bottom: 35px;
+        font-size: 12px;
+        line-height: 20px;
+        color: #616368;
+        word-spacing: 1px;
+        text-align: left;
+    }
+
+    .accordian--content-1 {
+        width: 100%;
+        padding-left: 15px;
+    }
+
+
+    #download h2 {
+        font-size: 32px;
+        color: #242f51;
+        font-weight: 700;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    #download p {
+        font-size: 13px;
+        line-height: 23px;
+        color: #616368;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .img-apple {
+        margin: 0 auto;
+        width: 120px;
+    }
+
+    .img-android {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        width: 120px;
+    }
+
+    .download-img-right img {
+        margin: 0 auto;
+        margin-top: 20px;
+
+    }
+
+    #footer {
+        position: relative;
+        top: -26px;
+    }
+
+    #footer ul.footer-link li a {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 40px;
+        color: white;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #footer p {
+        margin-top: 50px;
+        font-size: 9px;
+        color: #616368;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+
+    #footer ul.social-item {
+        margin-top: 60px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:350px) {
+
+    #jackpot .top-jackpot h1 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+
+    #people .right-info h4 {
+        margin-top: 30px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #242f51;
+        margin-bottom: 0;
+        word-spacing: 1px;
+
+    }
+  #home h3 {
+        font-size: 10px;
+    }
+    #people .right-info h5 {
+        font-size: 12px;
+    }
+#download h2 {
+        font-size: 30px;
+    }
+    
+     #footer {
+        position: relative;
+        top: -22px;
+    }
+    
+   
+}
+
+
+
+
+
+
+@media (max-width:330px) {
+    #footer {
+        position: relative;
+        top: -20px;
+    }
+
+    #download h2 {
+        font-size: 28px;
+    }
+    
+      #home h1 {
+        font-size: 36px;
+    }
+    
+     #people .right-info h4 {
+        margin-top: 30px;
+        font-size: 12px;
+        font-weight: 600;
+        color: #242f51;
+        margin-bottom: 0;
+        word-spacing: 1px;
+
+    }
+
+}
+
+
+
+@media (max-width:330px) {
+     #home h1 {
+        font-size: 30px;
+    }
+
+    #home h3 {
+        font-size: 10px;
+    }
+    
+     .btn-general {
+
+        font-family: 'Poppins', sans-serif;
+        border-radius: 24px;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 9px 25px;
+        -webkit-transition: all .5s;
+        transition: all .5s;
+
+    }
+  #jackpot .top-jackpot h1 {
+        font-size: 16px;
+      line-height: 28px;
+}
+    
+      .jackpot-bottom-2-info .bottom-2-right h1 {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .jackpot-bottom-2-info .bottom-2-right p {
+        font-size: 13px;
+        word-spacing: 1px;
+        line-height: 18px;
+        text-align: center;
+        padding: 0 40px;
+    }
+
+}
+
+@media (max-width:300px) {
+     #people .right-info h4 {
+        margin-top: 34px;
+        font-size: 10px;
+        font-weight: 600;
+        color: #242f51;
+        margin-bottom: 0;
+        word-spacing: 1px;
+
+    }
+    #people .right-info h5 {
+    margin-top: 6px;
+    font-size: 9px;
+    font-weight: 400;
+    color: #616368;
+
+}
+
+}
